@@ -1,0 +1,17 @@
+[
+  {
+    "name": "1",
+    "command": "hello",
+    "expected": "hello123"
+  },
+  {
+    "name": "2 - a valid test",
+    "command": "echo hello",
+    "expected": "hello"
+  },
+  {
+    "name": "3",
+    "command": "hi",
+    "expected": "hello"
+  }
+]

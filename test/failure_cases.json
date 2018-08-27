@@ -1,0 +1,22 @@
+[
+  {
+    "name": "failure case 1",
+    "command": "target/debug/bintester test/failure/failure_case1.json",
+    "expected": "F\n\n1 tests FAILED:\n[\"echo hello\"]"
+  },
+  {
+    "name": "failure case 2",
+    "command": "target/debug/bintester test/failure/failure_case2.json; echo $?",
+    "expected": "FF\n\n2 tests FAILED:\n[\"hello\", \"hi\"]\n1"
+  },
+  {
+    "name": "failure case 3",
+    "command": "target/debug/bintester test/failure/failure_case3.json; echo $?",
+    "expected": "F.F\n\n2 tests FAILED:\n[\"hello\", \"hi\"]\n1"
+  },
+  {
+    "name": "failure case 4",
+    "command": "target/debug/bintester; echo $?",
+    "expected": "You must specify the path to the tests file as the first argument\n1"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "1",
+    "command": "echo hello",
+    "expected": "hello"
+  },
+  {
+    "name": "2",
+    "command": "echo hello2",
+    "expected": "hello2"
+  },
+  {
+    "name": "3",
+    "command": "echo hello3",
+    "expected": "hello3"
+  }
+]

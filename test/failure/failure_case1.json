@@ -1,0 +1,7 @@
+[
+  {
+    "name": "1",
+    "command": "echo hello",
+    "expected": "hello123"
+  }
+]

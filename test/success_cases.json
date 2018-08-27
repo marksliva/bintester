@@ -1,0 +1,17 @@
+[
+  {
+    "name": "success case 1",
+    "command": "target/debug/bintester test/success/success_case1.json",
+    "expected": ".Success!"
+  },
+  {
+    "name": "success case 2",
+    "command": "target/debug/bintester test/success/success_case2.json",
+    "expected": "...Success!"
+  },
+  {
+    "name": "success case 3",
+    "command": "target/debug/bintester test/success/success_case3.json && echo $?",
+    "expected": ".Success!\n0"
+  }
+]
